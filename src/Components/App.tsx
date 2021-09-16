@@ -1,12 +1,12 @@
 import React from 'react';
+import Weather from './Weather/Weather';
 
-const App: React.FC = () => {
-
+const App = () => {
   return (
     <>
-      test
-    </>
-  );
+      <Weather />
+      < />
+      );
 };
 
-export default App;
+      export default App;
