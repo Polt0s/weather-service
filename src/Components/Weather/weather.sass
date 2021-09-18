@@ -35,47 +35,31 @@ $main-color-white: #FFFFFF
     position: relative
     grid-auto-rows: auto
 
-  &__block-input, &__block-temperature
+  &__block-input, &__block-counter
     position: relative
     display: flex
     flex-flow: row wrap
     grid-column: span 6 / auto
     height: 100%
 
-  &__block-temperature
+  &__block-counter
     justify-content: flex-end
 
-  &__temperature
-    mix-blend-mode: normal
-    opacity: 0.4
-    border: 1px solid white
-    box-sizing: border-box
-    border-radius: 8px
-    width: 100px
-    height: 30px
-    display: flex
+.counter
+  mix-blend-mode: normal
+  opacity: 0.4
+  border: 1px solid white
+  box-sizing: border-box
+  border-radius: 8px
+  width: 100px
+  height: 30px
+  display: flex
 
   &__C
-    @include main-font
-    font-size: 20px
-    line-height: 20px
-    color: $main-color-white
     border-right: 1px solid white
-    width: 50%
-    text-align: center
-    display: flex
-    justify-content: center
-    align-items: center
-    cursor: pointer
     border-radius: 8px 0 0 8px
 
-    &:hover
-      background-color: white
-      color: black
-      opacity: 0.6
-      content: ""
-
-  &__F
+  &__C, &__F 
     @include main-font
     font-size: 20px
     line-height: 20px

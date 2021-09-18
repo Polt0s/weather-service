@@ -37,10 +37,10 @@ const Weather: React.FC = () => {
               <Input placeholder={'Введите город'} />
             </div>
 
-            <div className={'header__block-temperature'}>
-              <div className={'header__temperature'}>
-                <span className={'header__C'}>C</span>
-                <span className={'header__F'}>F</span>
+            <div className={'header__block-counter'}>
+              <div className={'counter'}>
+                <span className={'counter__C'}>C</span>
+                <span className={'counter__F'}>F</span>
               </div>
             </div>
           </div>

@@ -1,12 +1,10 @@
 import React from 'react';
 import Weather from './Weather/Weather';
 
-const App = () => {
-  return (
-    <>
-      <Weather />
-      < />
-      );
-};
+const App: React.FC = () => (
+  <>
+    <Weather />
+  </>
+);
 
-      export default App;
+export default App;
